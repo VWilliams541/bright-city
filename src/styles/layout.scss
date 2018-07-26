@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+
 body{
-    margin: 0;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #eee;
+    color: #555;
 }
 
 .layout{
@@ -9,8 +15,9 @@ body{
 
 header{
     display: flex;
-  background-color: #999;
-  width: 100%;
+    background-color: #444;
+    box-shadow: 10px 0px 30px #555;
+  
 
   .logo {
     display:flex;
@@ -20,12 +27,18 @@ header{
 
     a{
     text-decoration: none;
-    color: #333;
+    color: #ffd802;
+    }
+
+    a:hover{
+        color:white;
     }
 
     li{
         font-size: 20px;
-        margin-right: 20px; 
+        padding-right: 10px;
+        padding-left: 10px; 
+        border-left: 1px solid #222;
      }
 
     ul{
@@ -43,7 +56,7 @@ header{
         text-align: center;
     }
     p{
-        margin: 20px;
+        text-indent: 50px;
     }
 }
 

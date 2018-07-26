@@ -1,0 +1,38 @@
+.leaders{
+    display: flex;
+    padding: 25px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 25px;
+    max-width: 60%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    
+    img{
+    
+    border-radius: 5px;
+    max-height: 500px;
+    max-width: 100%;
+    box-shadow: 10px 10px 10px;
+}
+}
+
+@media(max-width:600px){
+    .leaders{
+        display:flex;
+        flex-direction: column;
+        width:100%
+    }
+    img{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+}
