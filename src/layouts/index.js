@@ -11,22 +11,27 @@ const ListLink = props =>
 
 export default ({ children }) =>
     <div className="layout">
-        <header>   
-            <Link to="/">
-                <h3>Bright City Church</h3>
-            </Link>
+        <header>
+            <div className="logo">   
+                <Link to="/">
+                    <h3>Bright City Church</h3>
+                </Link>
+            </div>
             <ul>
                 <ListLink to="/">Home</ListLink>
-                <ListLink to="/about/">About</ListLink>
-                <ListLink to="/contact/">Contact</ListLink>
+                <ListLink to="/leaders/">Leaders</ListLink>
+                <ListLink to="/values/">Core Values</ListLink>
+                <ListLink to="/beliefs/">What We Believe</ListLink>
+                <ListLink to="/give/">Give</ListLink>
+                <ListLink to="/contact/">Contact Us</ListLink>
             </ul>
-          
-            </header>
-        {children()}
+        </header>
+        <article className="content">
+            {children()}
+        </article>
         <footer>
             <div>
                 <p>Coded by Vincent Williams</p>
             </div>
         </footer>
-    </div>
-
+</div>

@@ -1,15 +1,22 @@
+body{
+    margin: 0;
+}
+
 .layout{
-    margin: 0 auto;
-    max-width: 650px;
-    padding: 1.25rem 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     display: flex;
-    margin-bottom: 1.5rem;
-    width:100%;
+  background-color: #999;
+  width: 100%;
 
-
+  .logo {
+    display:flex;
+    width: 15%;
+    padding-left: 50px;
+  }
 
     a{
     text-decoration: none;
@@ -17,13 +24,26 @@ header{
     }
 
     li{
-    margin-right: 10px; 
+        font-size: 20px;
+        margin-right: 20px; 
      }
 
     ul{
-    display:flex;
-    align-items:center;
-    list-style: none; 
+        display: flex;
+        padding-right: 50px;
+        width:100%;
+        align-items: center;
+        list-style: none; 
+    justify-content: flex-end; 
+    }
+}
+
+.content{
+    h1{
+        text-align: center;
+    }
+    p{
+        margin: 20px;
     }
 }
 
@@ -33,4 +53,3 @@ footer{
     width: 90%;
     text-align:right;
 }
-

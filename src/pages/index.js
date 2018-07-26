@@ -1,5 +1,4 @@
 import React from "react";
-import '../styles/page.scss';
 
 export default () => 
 <div className="page">
