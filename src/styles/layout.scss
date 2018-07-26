@@ -1,0 +1,36 @@
+.layout{
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 1.25rem 1rem;
+}
+
+header{
+    display: flex;
+    margin-bottom: 1.5rem;
+    width:100%;
+
+
+
+    a{
+    text-decoration: none;
+    color: #333;
+    }
+
+    li{
+    margin-right: 10px; 
+     }
+
+    ul{
+    display:flex;
+    align-items:center;
+    list-style: none; 
+    }
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    text-align:right;
+}
+
